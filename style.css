@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: "Baloo tamma 2", cursive;;
+}
+/* Navigation */
+.navigation-link {
+    border: 2px rgb(209, 204, 186);
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid red;
+    transition: 0.5s ease;
+}
+/* Main Heading Font */
+.m-heading {
+    font-family: "Roboto slab",serif;
+}
+.text-white {
+    color: wheat;
+}
+/* Main Container Height */
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(download (1).jpeg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* Alligning items in main row */
+.m-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Changing main row font size */
+.m_row h1 {
+    font-size: 5rem;
+}
