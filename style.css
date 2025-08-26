@@ -29,7 +29,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(download (1).jpeg) ;
+    background-image: url("rfu.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
